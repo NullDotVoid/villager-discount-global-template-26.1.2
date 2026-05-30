@@ -3,9 +3,10 @@
 	"id": "villager-discount-global",
 	"version": "${version}",
 	"name": "Villager-Discount-Global",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "Reverts Villager Cure Stacking and Shares Cure Prices With All Players",
 	"authors": [
-		"Me!"
+		"roofedmonkey8",
+		"NullDotVoid"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",

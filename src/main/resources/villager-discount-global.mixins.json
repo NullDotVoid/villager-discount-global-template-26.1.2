@@ -2,9 +2,11 @@
 	"required": true,
 	"package": "net.roofedmonkey8.mixin",
 	"compatibilityLevel": "JAVA_25",
+	"refmap": "villager-discount-global.refmap.json",
 	"mixins": [
 		"VillagerMixin",
-		"GossipTypeMixin"
+		"GossipMaxMixin",
+		"SomethingMaxMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1

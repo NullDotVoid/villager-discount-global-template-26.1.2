@@ -16,6 +16,7 @@ import net.minecraft.world.entity.player.Player;
 
 import java.util.UUID;
 
+
 @Mixin(net.minecraft.world.entity.npc.villager.Villager.class)
 public class VillagerMixin {
 	
@@ -37,4 +38,5 @@ public class VillagerMixin {
     private void getPlayerReputation(Player player, CallbackInfoReturnable<Integer> cir) {
         cir.setReturnValue(this.gossips.getReputation(FAKE_UUID, t -> true));
     }
+
 }
